@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13160E622821239B00634997 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13160E612821239B00634997 /* main.cpp */; };
+		13160E6A282123C400634997 /* BreadthFirstSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13160E68282123C400634997 /* BreadthFirstSearch.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,10 @@
 
 /* Begin PBXFileReference section */
 		13160E5E2821239B00634997 /* 22_breadthFirstSearch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 22_breadthFirstSearch; sourceTree = BUILT_PRODUCTS_DIR; };
-		13160E612821239B00634997 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13160E68282123C400634997 /* BreadthFirstSearch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BreadthFirstSearch.cpp; sourceTree = "<group>"; };
+		13160E69282123C400634997 /* BreadthFirstSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreadthFirstSearch.h; sourceTree = "<group>"; };
+		13160E6B282123D500634997 /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = queue.h; path = ../../10_queue/10_queue/queue.h; sourceTree = "<group>"; };
+		13160E6C282123E300634997 /* LinkedLists.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinkedLists.h; path = ../../10_linkedList/10_linkedList/LinkedLists.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,10 @@
 		13160E602821239B00634997 /* 22_breadthFirstSearch */ = {
 			isa = PBXGroup;
 			children = (
-				13160E612821239B00634997 /* main.cpp */,
+				13160E6C282123E300634997 /* LinkedLists.h */,
+				13160E6B282123D500634997 /* queue.h */,
+				13160E68282123C400634997 /* BreadthFirstSearch.cpp */,
+				13160E69282123C400634997 /* BreadthFirstSearch.h */,
 			);
 			path = 22_breadthFirstSearch;
 			sourceTree = "<group>";
@@ -119,7 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13160E622821239B00634997 /* main.cpp in Sources */,
+				13160E6A282123C400634997 /* BreadthFirstSearch.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
